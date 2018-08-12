@@ -1,0 +1,76 @@
+body {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  width: 100%;
+  background-color: #6D6D6D;
+  margin: 0%;
+  border-bottom: 10px solid #F17405;
+}
+
+.navigation {
+	width: 96%;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 2%;
+  padding-right: 2%;
+}
+
+.navigation a {
+  text-decoration: none;
+  color: #FFFAFA;
+  font-family: Palatino Linotype;
+  font-size: 2.5em;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
+.image {
+  background-image: url("https://picsum.photos/1720/780");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 350px;
+  border-bottom: 10px solid #F17405;
+  margin: 0;
+  padding: 0;
+}
+
+.main {
+  background-color: #6D6D6D;
+  width: 97%;
+  height: 500px;
+  padding-top: 2%;
+  padding-left: 3%;
+}
+
+.boton {
+  background-color: #F17405;
+  text-decoration: none;
+  font-family: Palatino Linotype;
+  color: white;
+  font-size: 3em;
+  padding: 0.5% 0.5% 0.5% 0.5%;
+}
+
+
+.img {
+  background-image: url("https://picsum.photos/1720/780");
+  background-size: cover;
+  width: 32.7%;
+  height: 250px;
+  margin-top: 1%;
+
+}
+
+.coment {
+  background-color:  rgba(0, 0, 0, 0.5);
+  width: 70%;
+  padding: 0.1% 0.1% 0.1% 0.1%;
+  color: white;
+  margin-top: 2%;
+}
